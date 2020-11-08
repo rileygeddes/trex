@@ -40,7 +40,7 @@ function setup() {
 }
 
 function draw() {
-  background("green");
+  background("red");
   
   if(keyDown("space") && trex.y>160) {
     trex.velocityY = -12;
